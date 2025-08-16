@@ -12,8 +12,8 @@ int main() {
     
     tokenize(expr);   
     pos = 0;          
-    int result = parse_expr();  
-    printf("Result: %d\n", result);
+    int final = parse_expr();  
+    printf("Result: %d\n", final);
 
     
     return 0;
